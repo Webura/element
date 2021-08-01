@@ -1,6 +1,6 @@
 {
   "name": "@webura/element",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An HTML parser for scraping in TypeScript",
   "main": "dist/index",
   "types": "dist/index.d.ts",
