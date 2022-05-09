@@ -1,6 +1,6 @@
 {
   "name": "@webura/element",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An HTML parser for scraping in TypeScript",
   "main": "dist/index",
   "types": "dist/index.d.ts",
@@ -17,11 +17,5 @@
     "test": "node dist/test"
   },
   "author": "Johnny Tsang",
-  "license": "unlicense",
-  "dependencies": {
-    "parse5": "^6.0.1"
-  },
-  "devDependencies": {
-    "@types/parse5": "^6.0.1"
-  }
+  "license": "unlicense"
 }

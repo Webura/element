@@ -7,9 +7,9 @@ export default class Element {
     children: Element[];
     private constructor();
     static parse(html: string): Element;
-    private static convert;
     getValues(): string;
     filter(filter: (node: Element) => boolean): Array<Element>;
     find(filter: (node: Element) => boolean): Element | undefined;
     getNumberValue(): number;
+    toString(): string;
 }
