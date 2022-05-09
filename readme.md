@@ -8,7 +8,7 @@ npm install @webura/element
 ```
 # Example
 ```typescript
-import Element from "./index";
+import Element from "@webura/element";
 const html = `
   <html>
   <head></head>
