@@ -13,3 +13,4 @@ export default class Element {
     getNumberValue(): number;
     toString(): string;
 }
+//# sourceMappingURL=index.d.ts.map

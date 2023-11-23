@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class Element {
+export default class Element {
     constructor(tag, value, attr, children) {
         this.tag = tag;
         this.value = value;
@@ -221,4 +219,4 @@ class Element {
             return `<${this.tag}${attr} />`;
     }
 }
-exports.default = Element;
+//# sourceMappingURL=index.js.map

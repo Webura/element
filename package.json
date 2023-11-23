@@ -1,12 +1,17 @@
 {
   "name": "@webura/element",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An HTML parser for scraping in TypeScript",
+  "type": "module",
   "main": "dist/index",
   "types": "dist/index.d.ts",
+  "sideEffects": false,
   "repository": {
     "url": "https://github.com/Webura/element"
   },
+  "files": [
+    "./dist/"
+  ],
   "private": false,
   "keywords": [
     "element",
@@ -14,7 +19,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "node dist/test"
+    "test": "node --enable-source-maps dist/test"
   },
   "author": "Johnny Tsang",
   "license": "unlicense"

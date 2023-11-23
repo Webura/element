@@ -1,4 +1,4 @@
-import Element from "./index";
+import Element from "./index.js";
 const html = `
   <html>
   <head></head>

@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const index_1 = require("./index");
+import Element from "./index.js";
 const html = `
   <html>
   <head></head>
@@ -15,7 +13,7 @@ const html = `
     </div>
   </body>
   </html>`;
-const rootElement = index_1.default.parse(html);
+const rootElement = Element.parse(html);
 const booksDiv = rootElement.find(el => el.tag == 'div' && el.attr.id == 'books');
 for (const bookElement of booksDiv.filter(el => el.attr.class == 'book')) {
     if (bookElement.attr.style != 'display:none')
@@ -24,3 +22,4 @@ for (const bookElement of booksDiv.filter(el => el.attr.class == 'book')) {
 // Book1: 2001
 // Book2: 2002
 // Book3: 2003
+//# sourceMappingURL=test.js.map
